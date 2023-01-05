@@ -64,7 +64,7 @@ def main():
     """
     st.markdown(html_temp,unsafe_allow_html=True)
     Area = st.text_input("Area in hectares","Enter value")
-    Temperature = st.text_input("Temperature in degree celcius","TEnter value")
+    Temperature = st.text_input("Temperature in degree celcius","Enter value")
     Precipitation = st.text_input("Precipitation in mm","Enter value")
     Humidity = st.text_input("Humidity in percent","Enter value")
     result=""
